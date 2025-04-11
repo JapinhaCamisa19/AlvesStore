@@ -1,0 +1,150 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar img {
+    width: 50px;
+    height: auto;
+}
+
+/* Logo */
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+/* Corpo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Banner */
+.banner {
+    margin-top: 20px;
+}
+
+/* Formulário de Contato */
+.contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contact-form .heading {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    height: 180px;
+}
+.ni {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #1e1f22;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #575656;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+}
+
+.contact-form button[type="submit"]:hover {
+    transform: scale(1.04);
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Outros Estilos */
+.figura {
+    transition: transform 0.5s;
+}
+
+.figura:hover {
+    transform: scale(1.05);
+}
+.container4 {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mapa iframe {
+    width: 100%;
+    border-radius: 10px;
+}

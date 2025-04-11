@@ -1,0 +1,227 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Cabeçalho com gradiente */
+
+/* Texto "COMPRE POR TAMANHO" */
+.title {
+    font-family: "Baskerville Old Face", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Barra preta com tamanhos */
+.sizes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px 0;
+    gap: 150px;
+    width: 100%;
+}
+
+/* Círculos de tamanho */
+.size {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.size:hover {
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.text {
+    font-family: "Baskerville Old Face", cursive;
+    font-size: 60px;
+}
+
+.figura {
+    transition: transform 0.5s;
+}
+
+.figura:hover {
+    transform: scale(1.05);
+}
+
+.comprar {
+    background-color: #6c6c6c;
+
+}
+
+.produto-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /*max-width: 1100px;*/
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.desconto {
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    top: 10px;
+    left: 10px;
+}
+
+.imagem-produto img {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.compra-rapida {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.compra-rapida:hover {
+    background: black;
+    color: white;
+}
+
+.info-produto {
+    flex: 1;
+    font-size: 22px;
+
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tamanhos {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.tam {
+    background: #dcdcdc;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.tam:hover {
+    background: black;
+    color: white;
+}
+
+.comprar {
+    width: 30%;
+    padding: 10px;
+    background: #dcdcdc;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.comprar:hover {
+    background: #a6a6a6;
+    color: white;
+}
+
+.descricao-produto {
+    margin-top: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+.tamanhos{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    justify-content: center;
+}
+.comprar a{
+    text-decoration: none;
+}
+.idex{
+    text-decoration: none;
+    color: #000000;
+}
+.ni {
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    .sizes {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+        justify-content: center;
+        align-items: center;
+        gap: 15px; /* Espaço entre os itens */
+        padding: 20px;
+    }
+
+    .size {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .size img {
+        width: 70px; /* Ajuste para melhor proporção */
+        height: 70px;
+    }
+}

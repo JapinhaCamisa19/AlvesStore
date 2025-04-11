@@ -1,0 +1,166 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar img {
+    width: 50px;
+    height: auto;
+}
+
+/* Logo */
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+/* Título */
+.title {
+    font-family: "Baskerville Old Face", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Barra preta com tamanhos */
+.sizes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px 0;
+    gap: 150px;
+    width: 100%;
+}
+
+/* Círculos de tamanho */
+.size {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.size:hover {
+    transform: scale(1.1);
+}
+
+/* Destaques */
+.destaques {
+    background-color: black;
+}
+
+.destaques img {
+    width: 550px;
+    height: 550px;
+    padding: 20px;
+}
+
+/* Avaliação */
+.Avaliacao {
+    background-color: #000000;
+}
+
+.texta {
+    font-family: "Baskerville Old Face", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+}
+
+.pro img {
+    width: 350px;
+    height: 350px;
+}
+
+/* Seção Sobre */
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.texto h1 {
+    background-color: #555555;
+    width: 350px;
+}
+
+.texto {
+    font-family: "Baskerville Old Face", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+.ni {
+    text-decoration: none;
+    color: black;
+}
+
+/* Seções alinhadas ao centro */
+.quem-somos, .historico, .visao, .missao, .Valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.quem-somos p, .historico p, .visao p, .missao p, .Valores p {
+    font-size: 25px;
+    max-width: 800px;
+}
+
+.text-start span, .text-end span, .text-start h3, .text-end h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-start p, .text-end p {
+    font-family: "Baskerville Old Face", cursive;
+    font-size: 25px;
+}
+
+.historico img, .visao img, .missao img, .Valores img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.figura {
+    transition: transform 0.5s;
+}
+
+.figura:hover {
+    transform: scale(1.05);
+}
